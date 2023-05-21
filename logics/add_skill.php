@@ -36,7 +36,7 @@ if (isset($_POST['submit'])) {
 
     $query = "INSERT INTO `skills` (`id_user`, `skill_name`, `skill_experience`, `skill_image`, `skill_pin`) VALUES ('$user', '$skill', '$experience', '$image', '$pin')";
     if ($conn->query($query) === TRUE) {
-        header('Location: ../pages/dashboard.php?error=You added a skill!');
+        header('Location: ../pages/dashboard.php?msg=You added a new skill!&type=info');
     } else {
         header('Location: ../pages/dashboard.php?error=Something wrong about your request!');
     }
