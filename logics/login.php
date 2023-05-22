@@ -15,4 +15,6 @@ if (isset($_POST['login'])) {
     } else {
         header('Location: ../pages/login.php?error=1');
     }
+} else {
+    header('Location: ../pages/login.php');
 }
