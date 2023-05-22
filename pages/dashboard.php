@@ -93,7 +93,7 @@ $resultGetSkill = $conn->query($queryGetSkill);
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <a href="../logics/delete_skill.php?id=" class="btn btn-sm btn-danger">Delete</a>
+                    <a id="delete-button" href="../logics/delete_skill.php?id=" class="btn btn-sm btn-danger">Delete</a>
                     <input name="submit" type="submit" class="btn btn-sm btn-primary" value="Submit">
                 </div>
             </div>
@@ -140,40 +140,28 @@ $resultGetSkill = $conn->query($queryGetSkill);
 
 <div class="container p-5">
 
-    <div class="alert alert-warning alert-dismissible fade show" role="alert">
-        <strong>Holy guacamole!</strong> You should check in on some of those fields below.
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-    </div>
+    <?php if (isset($_GET['msg']) && isset($_GET['type']) && !empty($_GET['msg']) && !empty($_GET['type'])) { ?>
+        <div class="mb-5 alert alert-<?= $_GET['type']; ?> alert-dismissible fade show" role="alert">
+            <?= $_GET['msg']; ?>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    <?php } ?>
 
     <div class="row">
         <h2>Skills</h2>
+        <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique odio tellus, quis
+            ullamcorper enim
+            porta non. Praesent velit velit, imperdiet sit amet pharetra at, malesuada vel ex. In nibh magna, vestibulum
+            quis turpis interdum, scelerisque fermentum massa. Phasellus faucibus nulla ante, vitae imperdiet magna
+            posuere eu.</p>
         <?php
         if ($resultGetSkill->num_rows > 0) {
             while ($rowSkill = $resultGetSkill->fetch_assoc()) {
                 ?>
-                <div class="col-6 col-md-4 col-lg-6">
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="row">
-                                <div class="col text-capitalize text-secondary fw-bold">
-                                    <?= $rowSkill['skill_name'] ?>
-                                </div>
-                                <div class="col d-flex justify-content-end">
-                                    <?php if ($rowSkill['skill_pin'] == 1) { ?>
-                                        <span class="badge bg-primary">Featured</span>
-                                    <?php } ?>
-                                </div>
-                            </div>
-                        </div>
-                        <div class=" ratio ratio-1x1">
-                            <img src="../public/images/<?= $rowSkill['skill_image'] ?>" class="card-img-top object-fit-cover"
-                                alt="<?= $rowSkill['skill_image'] ?>">
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">
-                                <?= $rowSkill['skill_experience'] ?>
-                            </li>
-                        </ul>
+                <div class="dt-skill-card col-6 col-md-4 col-lg-4   ">
+                    <div class="ratio ratio-1x1">
+                        <img src="../public/images/<?= $rowSkill['skill_image'] ?>" class="card-img-top object-fit-cover "
+                            alt="<?= $rowSkill['skill_image'] ?>">
                     </div>
                     <button type="button" class="open-skill-modal btn btn-sm btn-secondary my-3" data-type="edit"
                         data-id="<?= $rowSkill['id_skill'] ?>" data-skill="<?= $rowSkill['skill_name'] ?>"
@@ -184,7 +172,11 @@ $resultGetSkill = $conn->query($queryGetSkill);
                 </div>
             <?php }
         } else {
-            echo "0 results";
+            ?>
+            <div class="border py-3 w-100 text-center bg-light">
+                <b>0 result</b>, add your first skill to begin with ^_^
+            </div>
+            <?php
         }
         ?>
     </div>

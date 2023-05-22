@@ -19,6 +19,8 @@
     --bs-border-radius-xxl: 0.75rem;
     --bs-border-radius-2xl: var(--bs-border-radius-xxl);
     --bs-border-radius-pill: 37.5rem;
+    --bs-warning-bg-subtle: var(--warning);
+    --bs-secondary-bg-subtle: var(--secondary);
 }
 
 .container {
@@ -111,6 +113,28 @@ h1, h2, h3, h4, h5, h6, .fw-bold {
     width: 86%;
     height: 100vh;
     margin: auto;
+}
+
+/* .dt-skill-card:nth-child(even) {
+    margin-top: 3rem;
+}
+
+.dt-skill-card:nth-child(odd) {
+    margin-bottom: 3rem;
+} */
+
+.dt-skill-card .open-skill-modal {
+    visibility: hidden;
+}
+
+.dt-skill-card:hover .open-skill-modal {
+    visibility: visible;
+}
+.dt-skill-card {
+    opacity: 0.95;
+}
+.dt-skill-card:hover {
+    opacity: 1;
 }
 
 @media screen and (min-width: 992px) {
