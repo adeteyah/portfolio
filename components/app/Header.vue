@@ -1,7 +1,7 @@
 <template>
-  <div>Header</div>
+  <div class="grid gap-8 lg:gap-11">
+    <UiNavbar />
+    <UiHero />
+    <UiSubtitle />
+  </div>
 </template>
-
-<script lang="ts" setup></script>
-
-<style></style>
