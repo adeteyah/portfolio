@@ -1,7 +1,7 @@
 <template>
   <footer>
     <div class="w-56">
-      <IconsAditiyaRachman />
+      <IconsAR />
     </div>
     <div
       class="flex gap-4 md:gap-5 lg:gap-6 py-8 justify-between lg:justify-end"
