@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-col lg:flex-row lg:items-center gap-4 lg:gap-8">
-    <div class="w-24 lg:w-full bg-red-100">
+  <div class="flex flex-col lg:flex-row lg:items-center gap-8">
+    <div class="w-24 bg-red-100">
       <IconsAditiyaRachman />
     </div>
     <div class="bg-red-200">
