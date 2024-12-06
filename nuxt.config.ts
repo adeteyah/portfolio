@@ -9,4 +9,14 @@ export default defineNuxtConfig({
     port: 3000,
     https: false,
   },
+  app: {
+    pageTransition: {
+      name: "fade",
+      mode: "out-in", // default
+    },
+    layoutTransition: {
+      name: "slide",
+      mode: "out-in", // default
+    },
+  },
 });
