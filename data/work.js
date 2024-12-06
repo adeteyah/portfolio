@@ -43,4 +43,26 @@ export const works = [
     industry: "technology",
     details: "A mobile-friendly e-commerce platform.",
   },
+  {
+    id: 5,
+    title: "The Damai",
+    image:
+      "https://assets.awwwards.com/awards/submissions/2022/01/61e0624395dd2515020605.png",
+    techstack: ["React", "Express.js"],
+    year: 2021,
+    service: "Website & Design",
+    industry: "technology",
+    details: "A mobile-friendly e-commerce platform.",
+  },
+  {
+    id: 6,
+    title: "Landing Hymn",
+    image:
+      "https://assets.awwwards.com/awards/avatar/1057145/667adddad76a9046689073.jpg",
+    techstack: ["React", "Express.js"],
+    year: 2021,
+    service: "Website & Design",
+    industry: "technology",
+    details: "A mobile-friendly e-commerce platform.",
+  },
 ];
