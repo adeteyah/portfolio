@@ -4,7 +4,7 @@
       <IconsAditiyaRachman />
     </div>
     <div class="w-5/6 bg-red-200 self-stretch">
-      <h1 class="text-2xl md:text-4xl lg:text-5xl uppercase">
+      <h1 class="text-2xl md:text-4xl lg:text-7xl uppercase">
         I’m a <span class="font-semibold">UI/UX Designer</span> and
         <span class="font-semibold">Full-stack Developer</span>
       </h1>
