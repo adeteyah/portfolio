@@ -2,7 +2,7 @@
   <div class="grid lg:grid-cols-3 -mx-4">
     <div
       class="px-4 pt-4 hover:bg-gray rounded transition-colors duration-500"
-      v-for="work in works.slice(0, 3)"
+      v-for="work in works.slice(0, 4)"
       :key="work.id"
     >
       <NuxtLink class="group no-hover" :to="`/work/${work.id}`">
@@ -28,13 +28,6 @@
     <NuxtLink to="/work">( See all work )</NuxtLink>
   </div>
 </template>
-<script>
+<script setup lang="ts">
 import { works } from "~/assets/data/work.js";
-export default {
-  data() {
-    return {
-      works,
-    };
-  },
-};
 </script>
