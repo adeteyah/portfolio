@@ -27,8 +27,11 @@
   <div class="flex justify-end">
     <NuxtLink to="/work">( See all work )</NuxtLink>
   </div>
+  <UiText>
+    <template #title>Work</template>
+    <template #text>Work</template>
+  </UiText>
 </template>
-<template #Text></template>
 <script setup>
 import work from "~/assets/data/work.js";
 const workData = work;
