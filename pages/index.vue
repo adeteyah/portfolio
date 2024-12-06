@@ -29,7 +29,7 @@
   </div>
 </template>
 <script>
-import { works } from "~/data/work.js";
+import { works } from "~/assets/data/work.js";
 export default {
   data() {
     return {
