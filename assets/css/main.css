@@ -1,7 +1,7 @@
 html,
 body {
   font-family: "General Sans";
-  @apply tracking-wide text-sm md:text-base lg:text-lg bg-white text-black;
+  @apply tracking-wide text-sm md:text-base bg-white text-black;
 }
 
 h1,
