@@ -1,7 +1,7 @@
 <template>
   <img
     class="w-full h-full"
-    src="/public/LogoEnabled.svg"
+    src="/public/LogoHover.svg"
     alt="Aditiya
   Rachman"
   />
