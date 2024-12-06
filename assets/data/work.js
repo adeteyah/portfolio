@@ -1,4 +1,4 @@
-export const work = [
+export default [
   {
     id: 1,
     title: "Project Alpha",
