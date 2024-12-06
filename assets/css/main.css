@@ -8,6 +8,11 @@ h1 {
   @apply tracking-wider;
 }
 
+h2,
+h3 {
+  @apply tracking-wide;
+}
+
 a {
   @apply transition-all duration-200;
 }
