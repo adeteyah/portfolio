@@ -28,6 +28,7 @@
     <NuxtLink to="/work">( See all work )</NuxtLink>
   </div>
 </template>
+<template #Text></template>
 <script setup>
 import work from "~/assets/data/work.js";
 const workData = work;
