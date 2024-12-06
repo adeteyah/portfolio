@@ -1,3 +1,8 @@
 <template>
-  <h1 class="uppercase text-4xl md:text-6xl lg:text-8xl">Aditiya Rachman</h1>
+  <img
+    class="w-full h-full"
+    src="/public/LogoEnabled.svg"
+    alt="Aditiya
+  Rachman"
+  />
 </template>
