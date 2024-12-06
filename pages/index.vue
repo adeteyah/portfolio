@@ -30,11 +30,5 @@
 </template>
 <script setup lang="ts">
 import work from "~/assets/data/work.js";
-
-definePageMeta({
-  title: "My home page",
-});
-
-// Rename the imported variable to avoid collision
 const workData = work;
 </script>
