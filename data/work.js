@@ -32,4 +32,15 @@ export const works = [
     industry: "technology",
     details: "A mobile-friendly e-commerce platform.",
   },
+  {
+    id: 4,
+    title: "Store Vegeta",
+    image:
+      "https://assets.awwwards.com/awards/avatar/1670413/647deb336a30f207375047.png",
+    techstack: ["React", "Express.js"],
+    year: 2021,
+    service: "Website & Design",
+    industry: "technology",
+    details: "A mobile-friendly e-commerce platform.",
+  },
 ];
