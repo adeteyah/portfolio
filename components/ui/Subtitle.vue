@@ -1,12 +1,12 @@
 <template>
-  <div class="hidden lg:grid md:grid-cols-3 opacity-50 gap-2 text-sm">
-    <span class="md:text-left">
+  <div class="hidden lg:grid lg:grid-cols-3 opacity-50 gap-2 text-sm">
+    <span class="lg:text-left">
       I design stuff to prioritize user comfort
     </span>
-    <span class="md:text-center">
+    <span class="lg:text-center">
       My target is to deliver user-friendly solutions
     </span>
-    <span class="md:text-right">
+    <span class="lg:text-right">
       And I develop something that bring simplicity to systems
     </span>
   </div>
