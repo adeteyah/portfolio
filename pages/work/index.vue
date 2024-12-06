@@ -26,8 +26,11 @@ import { works } from "~/data/work.js";
 export default {
   data() {
     return {
-      works,
+      works: [],
     };
+  },
+  mounted() {
+    this.works = works;
   },
 };
 </script>
