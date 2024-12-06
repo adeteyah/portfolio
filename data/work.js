@@ -21,7 +21,7 @@ export const works = [
     id: 3,
     title: "App Gamma",
     image:
-      "https://assets.awwwards.com/awards/submissions/2024/02/65c3a43c2f798911476445.jpg",
+      "https://assets.awwwards.com/awards/submissions/2024/02/65bbd8837c04b606744545.jpg",
     techstack: ["React", "Express.js"],
     year: 2021,
     details: "A mobile-friendly e-commerce platform.",

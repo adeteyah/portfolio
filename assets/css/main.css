@@ -12,6 +12,10 @@ a:hover {
   @apply blur-[1px];
 }
 
+a.no-hover:hover {
+  @apply blur-0;
+}
+
 a:active {
   @apply blur-0;
 }
