@@ -6,14 +6,16 @@
       :key="work.id"
     >
       <nuxt-link class="no-hover" :to="`/work/${work.id}`">
-        <div class="relative w-full h-[300px]">
+        <div
+          class="rounded relative w-full h-[300px] p-8 hover:p-0 bg-gray transition-all duration-500"
+        >
           <img
             class="rounded object-cover w-full h-full"
             :src="work.image"
             :alt="work.title"
           />
         </div>
-        <h3 class="text-3xl py-4 font-semibold">{{ work.title }}</h3>
+        <h3 class="text-xl py-4 font-semibold">{{ work.title }}</h3>
         <hr class="opacity-10" />
         <div class="flex justify-between py-4 opacity-50">
           <p>{{ work.year }}</p>
