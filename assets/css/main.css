@@ -22,7 +22,7 @@ a:active {
 
 .page-enter-active,
 .page-leave-active {
-  transition: all 0.4s;
+  transition: all 700ms;
 }
 .page-enter-from,
 .page-leave-to {
