@@ -1,13 +1,7 @@
 <template>
-  <div class="flex flex-col lg:flex-row lg:items-center gap-8">
-    <div class="w-24 bg-red-100">
-      <IconsAditiyaRachman />
-    </div>
-    <div class="bg-red-200">
-      <h1 class="uppercase text-2xl lg:text-7xl">
-        I’m a <span class="font-semibold">UI/UX Designer</span> and
-        <span class="font-semibold">Full-stack Developer</span>
-      </h1>
-    </div>
-  </div>
+  <h1 class="uppercase text-6xl md:text-7xl lg:text-8xl">
+    I’m a
+    <span class="font-bold">UI/UX Designer</span> &
+    <span class="font-bold">Full-stack Developer</span>
+  </h1>
 </template>
