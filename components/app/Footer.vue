@@ -4,9 +4,10 @@
       <IconsAditiyaRachman />
     </div>
     <div class="flex gap-4 md:gap-5 lg:gap-6">
-      <NuxtLink to="/about">About</NuxtLink>
-      <NuxtLink to="/work">Work</NuxtLink>
-      <NuxtLink to="/contact">Contact</NuxtLink>
+      <a target="_blank" href="/contact">Medium</a>
+      <a target="_blank" href="/about">Twitter</a>
+      <a target="_blank" href="/work">Instagram</a>
+      <a target="_blank" href="/work">GitHub</a>
     </div>
     <div class="flex justify-between opacity-50">
       <small>&copy; 2024</small>
