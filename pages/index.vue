@@ -5,7 +5,7 @@
       v-for="work in works.slice(0, 3)"
       :key="work.id"
     >
-      <nuxt-link class="group no-hover" :to="`/work/${work.id}`">
+      <NuxtLink class="group no-hover" :to="`/work/${work.id}`">
         <div
           class="rounded relative w-full h-[400px] p-4 group-hover:p-0 bg-gray transition-all duration-500"
         >
@@ -21,11 +21,11 @@
           <p>{{ work.year }}</p>
           <p>{{ work.year }}</p>
         </div>
-      </nuxt-link>
+      </NuxtLink>
     </div>
   </div>
   <div class="flex justify-end">
-    <nuxt-link to="/work"> (See all work) </nuxt-link>
+    <NuxtLink to="/work">( See all work )</NuxtLink>
   </div>
 </template>
 <script>
