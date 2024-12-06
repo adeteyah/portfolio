@@ -16,3 +16,15 @@
     systems.
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      firstText: "I design stuff to prioritize user comfort",
+      secondText: "And I develop something that bring simplicity to systems",
+      thirdext: "And I develop something that bring simplicity to systems",
+    };
+  },
+};
+</script>
