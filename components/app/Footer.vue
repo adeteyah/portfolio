@@ -1,7 +1,5 @@
 <template>
-  <div>Footer</div>
+  <div class="w-56 fill-gray">
+    <IconsAditiyaRachman />
+  </div>
 </template>
-
-<script lang="ts" setup></script>
-
-<style></style>
