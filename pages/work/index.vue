@@ -23,7 +23,7 @@
   </div>
 </template>
 <script>
-import { works } from "~/assets/data/work.js";
+import { work } from "~/assets/data/work.js";
 export default {
   data() {
     return {

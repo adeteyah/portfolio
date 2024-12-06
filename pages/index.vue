@@ -1,8 +1,8 @@
 <template>
   <div class="grid lg:grid-cols-3 -mx-4">
-    <div
+    <!-- <div
       class="px-4 pt-4 hover:bg-gray rounded transition-colors duration-500"
-      v-for="work in works.slice(0, 4)"
+      v-for="work in work.slice(0, 3)"
       :key="work.id"
     >
       <NuxtLink class="group no-hover" :to="`/work/${work.id}`">
@@ -22,12 +22,9 @@
           <p>{{ work.year }}</p>
         </div>
       </NuxtLink>
-    </div>
+    </div> -->
   </div>
   <div class="flex justify-end">
     <NuxtLink to="/work">( See all work )</NuxtLink>
   </div>
 </template>
-<script setup lang="ts">
-import { works } from "~/assets/data/work.js";
-</script>
