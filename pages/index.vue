@@ -5,9 +5,9 @@
       v-for="work in works.slice(0, 4)"
       :key="work.id"
     >
-      <nuxt-link class="no-hover" :to="`/work/${work.id}`">
+      <nuxt-link class="group no-hover" :to="`/work/${work.id}`">
         <div
-          class="rounded relative w-full h-[300px] p-8 hover:p-0 bg-gray transition-all duration-500"
+          class="rounded relative w-full h-[300px] p-4 group-hover:p-0 bg-gray transition-all duration-500"
         >
           <img
             class="rounded object-cover w-full h-full"
