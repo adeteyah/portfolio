@@ -24,6 +24,9 @@
       </nuxt-link>
     </div>
   </div>
+  <div class="flex justify-end">
+    <nuxt-link to="/work"> (See all work) </nuxt-link>
+  </div>
 </template>
 <script>
 import { works } from "~/data/work.js";
