@@ -8,6 +8,10 @@ h1 {
   @apply tracking-wider;
 }
 
+a {
+  @apply transition-all duration-200;
+}
+
 a:hover {
   @apply blur-[1px];
 }
@@ -17,7 +21,7 @@ a.no-hover:hover {
 }
 
 a:active {
-  @apply blur-0;
+  @apply blur-[2px];
 }
 
 .page-enter-active,
