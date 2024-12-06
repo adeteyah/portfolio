@@ -1,7 +1,7 @@
 <template>
   Test
   <div class="grid lg:grid-cols-2 gap-4 lg:gap-8">
-    <div v-for="work in works" :key="work.id">
+    <div v-for="work in work" :key="work.id">
       <nuxt-link class="group no-hover" :to="`/work/${work.id}`">
         <div
           class="relative w-full h-[600px] bg-gray p-8 flex items-center group-hover:bg-black transition-colors duration-500"
@@ -27,7 +27,7 @@ import { work } from "~/assets/data/work.js";
 export default {
   data() {
     return {
-      works,
+      work,
     };
   },
 };
