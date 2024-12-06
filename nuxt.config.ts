@@ -10,13 +10,6 @@ export default defineNuxtConfig({
     https: false,
   },
   app: {
-    pageTransition: {
-      name: "fade",
-      mode: "out-in", // default
-    },
-    layoutTransition: {
-      name: "slide",
-      mode: "out-in", // default
-    },
+    pageTransition: { name: "page", mode: "out-in" },
   },
 });
