@@ -4,14 +4,12 @@ body {
   @apply text-sm md:text-base bg-white text-black;
 }
 
-h1,
-h2,
-h3 {
+h1 {
   @apply tracking-wider;
 }
 
 a:hover {
-  @apply blur-[1px];
+  @apply blur-[1px] transition-all  duration-700 ease-in-out;
 }
 
 a:active {
