@@ -1,15 +1,19 @@
 html,
 body {
   font-family: "General Sans";
-  @apply tracking-wide text-sm md:text-base bg-white text-black;
+  @apply text-sm md:text-base bg-white text-black;
 }
 
 h1,
 h2,
 h3 {
-  @apply tracking-wider;
+  @apply tracking-wide;
 }
 
 a:hover {
   @apply blur-[1px];
+}
+
+a:active {
+  @apply blur-0;
 }
