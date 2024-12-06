@@ -7,8 +7,8 @@
       >
     </NuxtLink>
     <div class="flex gap-4 md:gap-5 lg:gap-6">
-      <NuxtLink to="/about">About</NuxtLink>
       <NuxtLink to="/work">Work</NuxtLink>
+      <NuxtLink to="/about">About</NuxtLink>
       <NuxtLink to="/contact">Contact</NuxtLink>
     </div>
   </div>

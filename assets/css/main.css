@@ -11,5 +11,5 @@ h3 {
 }
 
 a:hover {
-  @apply underline;
+  @apply blur-[1px];
 }
