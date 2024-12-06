@@ -1,5 +1,5 @@
 <template>
-  <div class="grid lg:grid-cols-4">
+  <div class="grid lg:grid-cols-4 -mx-4">
     <div
       class="px-4 pt-4 hover:bg-gray rounded transition-colors duration-500"
       v-for="work in works.slice(0, 4)"
