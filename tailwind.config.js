@@ -9,12 +9,6 @@ export default {
       white: "#FFFFFF",
       gray: "#F2F3F5",
     },
-    extend: {
-      lineHeight: {
-        "extra-loose": "2.5",
-        12: "3rem",
-      },
-    },
   },
   plugins: [],
 };
