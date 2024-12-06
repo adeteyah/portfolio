@@ -11,22 +11,28 @@
       >
     </NuxtLink>
     <div class="flex gap-4 md:gap-5 lg:gap-6">
-      <NuxtLink to="/work" :class="{ 'blur-[1px]': route.path !== '/work' }">
+      <NuxtLink
+        to="/work"
+        :class="route.path === '/work' ? 'no-hover' : 'blur-[1px]'"
+      >
         Work
       </NuxtLink>
-      <NuxtLink to="/about" :class="{ 'blur-[1px]': route.path !== '/about' }">
+      <NuxtLink
+        to="/about"
+        :class="route.path === '/about' ? 'no-hover' : 'blur-[1px]'"
+      >
         About
       </NuxtLink>
       <NuxtLink
         to="/contact"
-        :class="{ 'blur-[1px]': route.path !== '/contact' }"
+        :class="route.path === '/contact' ? 'no-hover' : 'blur-[1px]'"
       >
         Contact
       </NuxtLink>
     </div>
   </nav>
 </template>
-
 <script setup>
+import { useRoute } from "vue-router";
 const route = useRoute();
 </script>
