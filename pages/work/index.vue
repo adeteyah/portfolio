@@ -6,7 +6,7 @@
         <div
           class="relative w-full h-[600px] bg-gray p-8 flex items-center group-hover:bg-black transition-colors duration-500"
         >
-          <img
+          <NuxtImg
             class="rounded object-cover w-full h-[420px]"
             :src="work.image"
             :alt="work.title"

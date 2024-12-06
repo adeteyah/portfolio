@@ -9,7 +9,7 @@
         <div
           class="rounded relative w-full h-[400px] p-14 group-hover:p-0 bg-gray transition-all duration-500"
         >
-          <img
+          <NuxtImg
             class="rounded object-cover w-full h-full"
             :src="work.image"
             :alt="work.title"
