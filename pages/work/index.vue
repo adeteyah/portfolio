@@ -5,7 +5,10 @@
         <img class="rounded-md" :src="work.image" :alt="work.title" />
         <h3 class="text-3xl py-4 font-semibold">{{ work.title }}</h3>
         <hr class="opacity-10" />
-        <p></p>
+        <div class="flex justify-between py-4 opacity-50">
+          <p>{{ work.year }}</p>
+          <p>{{ work.year }}</p>
+        </div>
       </nuxt-link>
     </div>
   </div>

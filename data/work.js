@@ -6,6 +6,8 @@ export const works = [
       "https://assets.awwwards.com/awards/submissions/2024/02/65c3a43c2f798911476445.jpg",
     techstack: ["Vue.js", "Node.js"],
     year: 2023,
+    service: "Website & Design",
+    industry: "technology",
     details: "A web app for managing tasks efficiently.",
   },
   {
@@ -15,6 +17,8 @@ export const works = [
       "https://assets.awwwards.com/awards/avatar/222913/665dc853c0cd3010379460.jpg",
     techstack: ["Nuxt.js", "Tailwind CSS"],
     year: 2022,
+    service: "Website & Design",
+    industry: "technology",
     details: "A responsive design portfolio template.",
   },
   {
@@ -24,6 +28,8 @@ export const works = [
       "https://assets.awwwards.com/awards/submissions/2024/02/65bbd8837c04b606744545.jpg",
     techstack: ["React", "Express.js"],
     year: 2021,
+    service: "Website & Design",
+    industry: "technology",
     details: "A mobile-friendly e-commerce platform.",
   },
 ];
