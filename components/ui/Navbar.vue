@@ -2,11 +2,11 @@
   <nav class="relative flex justify-between md:text-base">
     <NuxtLink to="/" class="group font-semibold hover:no-underline">
       A<span
-        class="lg:text-white group-hover:text-black transition-colors duration-500"
+        class="lg:text-transparent group-hover:text-black transition-colors duration-500"
         >ditiya</span
       >
       R<span
-        class="lg:text-white group-hover:text-black transition-colors duration-1000"
+        class="lg:text-transparent group-hover:text-black transition-colors duration-1000"
         >achman</span
       >
     </NuxtLink>
