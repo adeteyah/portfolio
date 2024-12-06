@@ -1,9 +1,11 @@
 <template>
   <div class="grid gap-11">
-    <div class="indent-28 opacity-50 text-xl md:text-2xl lg:text-3xl uppercase">
+    <div class="indent-28 opacity-50 text-lg md:text-xl lg:text-2xl uppercase">
       [ <slot name="title" /> ]
     </div>
-    <div class="indent-28 text-3xl md:text-4xl lg:text-5xl lg:leading-relaxed">
+    <div
+      class="indent-28 text-2xl md:text-3xl lg:text-4xl leading-relaxed md:leading-loose lg:leading-loose"
+    >
       <slot name="text" />
     </div>
   </div>

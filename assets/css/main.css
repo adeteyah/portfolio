@@ -29,6 +29,10 @@ a:active {
   @apply blur-[2px];
 }
 
+section {
+  @apply my-8 grid gap-4;
+}
+
 .page-enter-active,
 .page-leave-active {
   transition: all 700ms;
