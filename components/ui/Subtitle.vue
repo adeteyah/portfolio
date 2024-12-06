@@ -1,19 +1,17 @@
 <template>
   <div class="hidden lg:grid lg:grid-cols-3 opacity-50 gap-2 text-sm">
     <span class="lg:text-left">
-      I design stuff to prioritize user comfort
+      {{ firstText }}
     </span>
     <span class="lg:text-center">
-      My target is to deliver user-friendly solutions
+      {{ secondText }}
     </span>
     <span class="lg:text-right">
-      And I develop something that bring simplicity to systems
+      {{ thirdText }}
     </span>
   </div>
   <div class="lg:hidden opacity-50">
-    I design stuff to prioritize user comfort. My target is to deliver
-    user-friendly solutions. And I develop something that bring simplicity to
-    systems.
+    {{ firstText }}. {{ secondText }}. {{ thirdText }}.
   </div>
 </template>
 
@@ -23,7 +21,7 @@ export default {
     return {
       firstText: "I design stuff to prioritize user comfort",
       secondText: "And I develop something that bring simplicity to systems",
-      thirdext: "And I develop something that bring simplicity to systems",
+      thirdText: "And I develop something that bring simplicity to systems",
     };
   },
 };
