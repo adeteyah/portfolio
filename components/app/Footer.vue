@@ -3,7 +3,9 @@
     <div class="w-56">
       <IconsAditiyaRachman />
     </div>
-    <div class="flex gap-4 md:gap-5 lg:gap-6 py-8 lg:justify-end">
+    <div
+      class="flex gap-4 md:gap-5 lg:gap-6 py-8 justify-between lg:justify-end"
+    >
       <a target="_blank" href="https://adeteyah.medium.com/">Medium</a>
       <a target="_blank" href="https://x.com/adeteyah">Twitter</a>
       <a target="_blank" href="https://www.instagram.com/adeteyah">Instagram</a>
