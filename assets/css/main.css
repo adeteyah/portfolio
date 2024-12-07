@@ -19,7 +19,7 @@ a {
 
 a::before {
   content: "";
-  @apply absolute -z-10 top-0 left-0 w-full h-full bg-black rounded-full blur-lg opacity-0 transition-all duration-200;
+  @apply absolute -z-10 top-0 left-0 w-full h-full bg-[#808080] rounded-full blur-lg opacity-0 transition-all duration-200;
 }
 
 a:hover::before {
@@ -27,7 +27,7 @@ a:hover::before {
 }
 
 a:hover {
-  @apply blur-[1px] text-white;
+  @apply blur-[1px];
 }
 
 a.no-hover:hover::before {
