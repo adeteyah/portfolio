@@ -14,15 +14,32 @@ h3 {
 }
 
 a {
-  @apply transition-all duration-200;
+  @apply relative transition-all duration-200 inline-block;
+}
+
+a::before {
+  content: "";
+  @apply absolute -z-10 top-0 left-0 w-full h-full bg-black rounded-full blur-lg opacity-0 transition-all duration-200;
+}
+
+a:hover::before {
+  @apply opacity-50;
 }
 
 a:hover {
-  @apply blur-[1px];
+  @apply blur-[1px] text-white;
+}
+
+a.no-hover:hover::before {
+  @apply opacity-0;
 }
 
 a.no-hover:hover {
   @apply blur-0;
+}
+
+a:active::before {
+  @apply opacity-70;
 }
 
 a:active {
