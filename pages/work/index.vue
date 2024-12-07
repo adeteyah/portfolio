@@ -1,5 +1,5 @@
 <template>
-  <div class="grid lg:grid-cols-2 gap-4 lg:gap-8">
+  <div class="grid min-[1600px]:grid-cols-2 gap-4 lg:gap-8">
     <div v-for="work in workData" :key="work.id">
       <nuxt-link class="group no-hover grid" :to="`/work/${work.id}`">
         <div
