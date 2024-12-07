@@ -14,11 +14,16 @@ body {
   background-color: #f1e7d0;
   color: #433422;
 }
-
 h1 {
-  @apply tracking-wider;
+  @apply font-bold;
 }
 
+h2,
+h3 {
+  @apply font-semibold;
+}
+
+h1,
 h2,
 h3 {
   @apply tracking-wide;
