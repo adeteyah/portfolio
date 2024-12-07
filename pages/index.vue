@@ -6,7 +6,7 @@
         v-for="work in workData.slice(0, 3)"
         :key="work.id"
       >
-        <NuxtLink class="group no-hover" :to="`/work/${work.id}`">
+        <NuxtLink class="group no-hover grid" :to="`/work/${work.id}`">
           <div
             class="rounded relative w-full h-[400px] p-14 group-hover:p-0 bg-gray transition-all duration-500"
           >
