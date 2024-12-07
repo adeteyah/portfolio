@@ -18,15 +18,15 @@ a {
 }
 
 a:hover {
-  @apply backdrop-blur-md; /* Applies a medium background blur */
+  @apply blur-[1px];
 }
 
 a.no-hover:hover {
-  @apply backdrop-blur-none; /* Removes blur when no-hover class is used */
+  @apply blur-0;
 }
 
 a:active {
-  @apply backdrop-blur-lg; /* Applies a larger blur when active */
+  @apply blur-[2px];
 }
 
 section {
