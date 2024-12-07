@@ -1,12 +1,12 @@
 <template>
-  <div class="grid lg:grid-cols-2 gap-4 lg:gap-8">
+  <div class="grid lg:grid-cols-4 gap-4 lg:gap-8">
     <div v-for="work in workData" :key="work.id">
       <nuxt-link class="group no-hover" :to="`/work/${work.id}`">
         <div
-          class="relative w-full h-[600px] bg-gray p-8 flex items-center works-center group-hover:bg-black transition-colors duration-500"
+          class="relative bg-gray p-8 flex items-center group-hover:bg-black transition-colors duration-500"
         >
           <img
-            class="rounded object-cover w-full h-[420px]"
+            class="rounded object-cover w-full h-[200px]"
             :src="work.image"
             :alt="work.title"
           />
