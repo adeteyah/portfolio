@@ -6,7 +6,7 @@
           class="relative bg-gray px-8 py-32 flex items-center group-hover:bg-black transition-colors duration-500"
         >
           <img
-            class="rounded object-cover w-full h-[480px]"
+            class="rounded object-cover w-full h-[200px] md:h-[320px] lg:h-[480px]"
             :src="work.image"
             :alt="work.title"
           />
