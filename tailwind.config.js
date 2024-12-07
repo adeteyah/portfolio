@@ -7,7 +7,7 @@ export default {
       current: "currentColor",
       black: "#1D1D1D",
       white: "#FFFFFF",
-      gray: "#F2F3F5",
+      gray: "rgba(80, 80, 80, 0.075)",
     },
   },
   plugins: [],
