@@ -2,7 +2,7 @@
   <div class="px-8 md:px-24 lg:px-40 py-11">
     <transition name="page" mode="out-in">
       <div key="$route.path" class="grid gap-4 lg:gap-11">
-        <div class="black-screen" v-if="isTransitioning" />
+        <div class="noise" v-if="isTransitioning" />
         <AppHeader />
         <slot />
         <AppFooter />
