@@ -22,6 +22,7 @@
   },
   "devDependencies": {
     "@nuxt/types": "^2.18.1",
-    "@nuxt/typescript-build": "^3.0.2"
+    "@nuxt/typescript-build": "^3.0.2",
+    "@types/curtainsjs": "^8.1.3"
   }
 }
