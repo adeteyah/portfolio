@@ -17,11 +17,13 @@
           {{ work.title }}
         </h3>
         <hr class="opacity-10" />
-        <div
-          class="flex justify-between py-4 lg:opacity-0 lg:group-hover:opacity-100 transition-all duration-500"
-        >
+        <div class="flex justify-between py-4 opacity-25">
           <p>{{ work.year }}</p>
-          <p>{{ work.year }}</p>
+          <p
+            class="lg:opacity-0 lg:group-hover:opacity-100 transition-all duration-500"
+          >
+            {{ work.year }}
+          </p>
         </div>
       </nuxt-link>
     </div>
