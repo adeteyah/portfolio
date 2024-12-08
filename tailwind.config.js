@@ -5,9 +5,9 @@ export default {
     colors: {
       transparent: "transparent",
       current: "currentColor",
-      black: "#1D1D1D",
-      white: "#FFFFFF",
-      gray: "rgba(80, 80, 80, 0.075)",
+      black: "#141414",
+      white: "#f1f2f3",
+      gray: "rgba(65, 65, 65, 0.075)",
     },
   },
   plugins: [],
