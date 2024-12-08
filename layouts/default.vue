@@ -22,7 +22,7 @@ export default {
       this.isTransitioning = true;
       setTimeout(() => {
         this.isTransitioning = false;
-      }, 500); // Match this timeout with CSS animation duration
+      }, 500);
     },
   },
 };
