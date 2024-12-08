@@ -35,7 +35,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  @apply bg-current/50;
+  @apply bg-black/100;
   z-index: 1000;
   transform: scale(1);
 }
