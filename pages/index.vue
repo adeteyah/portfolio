@@ -1,5 +1,6 @@
 <template>
   <UiDarkModeToggler />
+  <UiCurtainEffect />
   <section>
     <div class="grid lg:grid-cols-3 -mx-4">
       <div
