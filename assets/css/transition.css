@@ -24,8 +24,8 @@
 }
 
 /* Full black screen transition effect */
-.page-enter-active .black-screen,
-.page-leave-active .black-screen {
+.page-enter-active .noise,
+.page-leave-active .noise {
   transition: transform 0.5s ease;
 }
 
