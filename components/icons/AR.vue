@@ -28,10 +28,25 @@
 }
 
 .shape3 {
-  @apply fill-current;
+  @apply fill-current opacity-50;
 }
 
 .shape4 {
-  @apply fill-current;
+  @apply fill-current opacity-50;
+}
+.shape1:hover {
+  @apply opacity-100; /* Change to any color you like */
+}
+
+.shape2:hover {
+  @apply opacity-100;
+}
+
+.shape3:hover {
+  @apply opacity-100;
+}
+
+.shape4:hover {
+  @apply opacity-100;
 }
 </style>
