@@ -1,5 +1,5 @@
 import { Curtains } from "curtainsjs";
 
-export default (context, inject) => {
-  inject("curtains", Curtains); // Makes Curtains.js globally available as $curtains
-};
+export default defineNuxtPlugin((nuxtApp) => {
+  nuxtApp.provide("curtains", Curtains);
+});
