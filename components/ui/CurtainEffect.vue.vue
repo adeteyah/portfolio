@@ -3,7 +3,10 @@
     <!-- Add your elements with data-planes here -->
     <div class="plane" data-curtains>
       <div class="plane-content">
-        <img src="/your-image.jpg" alt="Curtain effect" />
+        <img
+          src="https://assets.awwwards.com/awards/submissions/2024/02/65c3a43c2f798911476445.jpg"
+          alt="Curtain effect"
+        />
       </div>
     </div>
   </div>
@@ -58,6 +61,7 @@ export default {
   position: relative;
   width: 100%;
   height: 100%;
+  background-color: red;
 }
 .plane {
   width: 100%;
