@@ -8,9 +8,6 @@
       creative based in Bandung. I designs and builds
       <span class="opacity-50 hover:opacity-100 cursor-help">app</span> —
       <span class="opacity-50 hover:opacity-100 cursor-help">websites</span>.
-      <NuxtLink to="/contact" class="opacity-50 hover:opacity-100">
-        Let’s team up and build something extraordinary!
-      </NuxtLink>
     </h1>
   </div>
 </template>
