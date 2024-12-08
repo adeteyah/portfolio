@@ -7,7 +7,8 @@
       <span class="opacity-50 hover:opacity-100 cursor-help">designer</span> +
       <span class="opacity-50 hover:opacity-100 cursor-help">developer</span>
       based in Bandung.<br />
-      I work with businesses to help them in best design a I’ve got you covered.
+      I partner with businesses to bring bold ideas to life through innovative
+      design and seamless development.
       <NuxtLink to="/contact" class="opacity-50 hover:opacity-100">
         Let’s team up and build something extraordinary!
       </NuxtLink>
