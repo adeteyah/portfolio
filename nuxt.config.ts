@@ -17,4 +17,5 @@ export default defineNuxtConfig({
   app: {
     pageTransition: { name: "page" },
   },
+  plugins: ["~/plugins/lenis.js"],
 });
