@@ -15,7 +15,7 @@ export default defineNuxtConfig({
     https: false,
   },
   app: {
-    pageTransition: { name: "page", type: "transition" },
+    pageTransition: { name: "page" },
   },
   plugins: ["~/plugins/lenis.client.js"],
 });
