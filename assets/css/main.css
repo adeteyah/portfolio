@@ -46,15 +46,15 @@ a:hover {
   @apply blur-[1px];
 }
 
-a.no-hover:hover::before {
+.no-hover:hover::before {
   @apply opacity-0;
 }
 
-a.no-hover:hover {
+.no-hover:hover {
   @apply blur-0;
 }
 
-a.no-hover:active {
+.no-hover:active {
   @apply opacity-70;
 }
 
