@@ -9,3 +9,41 @@
 .fade-leave-to {
   @apply opacity-0 blur-xl grayscale;
 }
+
+/*  */
+
+/* Set full-screen transition with a black screen effect */
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+}
+
+/* Full black screen transition effect */
+.page-enter-active .black-screen,
+.page-leave-active .black-screen {
+  transition: transform 0.5s ease;
+}
+
+.black-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  z-index: 1000;
+  transform: scale(1);
+}
+
+.page-enter {
+  transform: scale(1);
+}
+
+.page-leave-to {
+  transform: scale(1);
+}
