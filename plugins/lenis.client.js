@@ -1,8 +1,9 @@
 import Lenis from "lenis";
 
-export default defineNuxtPlugin(() => {
+export default defineNuxtPlugin((nuxtApp) => {
   const lenis = new Lenis({
     smooth: true,
+    lerp: 0.08,
   });
 
   function raf(time) {
@@ -12,10 +13,7 @@ export default defineNuxtPlugin(() => {
 
   requestAnimationFrame(raf);
 
-  // Expose lenis globally if needed
-  return {
-    provide: {
-      lenis,
-    },
-  };
+  // Add lenis to the Vue instance
+  nuxtApp.vueApp.provide("lenis", lenis);
+  nuxtApp.provide("lenis", lenis);
 });
