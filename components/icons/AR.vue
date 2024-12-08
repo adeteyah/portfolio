@@ -6,10 +6,10 @@
     xmlns="http://www.w3.org/2000/svg"
   >
     <g clip-path="url(#clip0_413_4245)">
-      <path class="shape1" d="M96 264H144L48 0H0L96 264Z" />
-      <path class="shape2" d="M144 132H96L192 264H240L144 132Z" />
-      <path class="shape3" d="M96 0H48L144 132H192L96 0Z" />
-      <path class="shape4" d="M0 0H48V264H0V0Z" />
+      <path d="M96 264H144L48 0H0L96 264Z" />
+      <path d="M144 132H96L192 264H240L144 132Z" />
+      <path d="M96 0H48L144 132H192L96 0Z" />
+      <path d="M0 0H48V264H0V0Z" />
     </g>
     <defs>
       <clipPath id="clip0_413_4245">
@@ -19,34 +19,7 @@
   </svg>
 </template>
 <style scoped>
-.shape1 {
-  @apply fill-current; /* Change to any color you like */
-}
-
-.shape2 {
+path {
   @apply fill-current;
-}
-
-.shape3 {
-  @apply fill-current;
-}
-
-.shape4 {
-  @apply fill-current;
-}
-.shape1:hover {
-  @apply rounded; /* Change to any color you like */
-}
-
-.shape2:hover {
-  @apply rounded;
-}
-
-.shape3:hover {
-  @apply rounded;
-}
-
-.shape4:hover {
-  @apply rounded;
 }
 </style>
