@@ -1,8 +1,8 @@
 .fade-enter-active {
-  @apply transition-opacity duration-500;
+  @apply transition-all duration-1000;
 }
 .fade-leave-active {
-  @apply transition-opacity duration-500;
+  @apply transition-all duration-500;
 }
 
 .fade-enter-from,
