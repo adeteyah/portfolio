@@ -14,6 +14,7 @@ export default defineNuxtConfig({
     port: 3000,
     https: false,
   },
+  plugins: ["~/plugins/curtains.js"],
   app: {
     pageTransition: { name: "page" },
   },
