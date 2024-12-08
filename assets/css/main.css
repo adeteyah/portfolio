@@ -54,6 +54,10 @@ a.no-hover:hover {
   @apply blur-0;
 }
 
+a.no-hover:active {
+  @apply opacity-70;
+}
+
 a:active::before {
   @apply opacity-70;
 }
@@ -63,7 +67,7 @@ a:active {
 }
 
 section {
-  @apply my-8 grid gap-4 py-24;
+  @apply my-8 grid gap-4 py-8;
 }
 
 .page-enter-active,
