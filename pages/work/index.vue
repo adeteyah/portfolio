@@ -3,7 +3,7 @@
     <div v-for="work in workData" :key="work.id">
       <nuxt-link class="group no-hover grid" :to="`/work/${work.id}`">
         <div
-          class="relative bg-gray px-8 py-16 min-[1600px]:py-24 flex items-center group-hover:bg-black transition-colors duration-500"
+          class="relative bg-gray hover:bg-gray/15 px-8 py-16 min-[1600px]:py-24 flex items-center transition-colors duration-500"
         >
           <img
             class="rounded object-cover w-full h-[240px] md:h-[320px] lg:h-[240px] min-[1600px]:h-[480px]"
