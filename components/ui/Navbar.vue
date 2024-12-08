@@ -11,6 +11,9 @@
       >
     </NuxtLink>
     <div class="flex gap-4 md:gap-5 lg:gap-6">
+      <NuxtLink to="/" :class="route.path === '/' ? 'no-hover' : 'blur-[1px]'">
+        Home
+      </NuxtLink>
       <NuxtLink
         to="/work"
         :class="route.path === '/work' ? 'no-hover' : 'blur-[1px]'"
@@ -29,6 +32,8 @@
       >
         Contact
       </NuxtLink>
+
+      <UiDarkModeToggler />
     </div>
   </nav>
 </template>
