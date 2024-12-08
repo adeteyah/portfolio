@@ -1,5 +1,9 @@
 <template>
   <section>
+    <UiHero />
+    <UiSubtitle />
+  </section>
+  <section>
     <div class="grid lg:grid-cols-3 -mx-4">
       <div
         class="px-4 pt-4 hover:bg-gray rounded transition-colors duration-500"
