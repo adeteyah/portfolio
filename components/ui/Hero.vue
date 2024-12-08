@@ -3,9 +3,8 @@
     <h1
       class="text-4xl leading-relaxed md:text-5xl md:leading-relaxed lg:text-6xl lg:leading-relaxed blur-[1px] hover:blur-[0.5px] transition-all duration-500"
     >
-      Hi! I'm Dete, a
-      <span class="opacity-50 hover:opacity-100 cursor-help">designer</span> and
-      a
+      Adit <span class="text-base align-top">(Dete)</span> is a
+      <span class="opacity-50 hover:opacity-100 cursor-help">designer</span> -
       <span class="opacity-50 hover:opacity-100 cursor-help">developer</span>
       based in Bandung. I create stuff to prioritize user comfort.
       <NuxtLink to="/contact" class="opacity-50 hover:opacity-100">
