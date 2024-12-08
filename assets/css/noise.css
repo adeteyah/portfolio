@@ -19,6 +19,7 @@
   will-change: transform;
   -webkit-animation: noise 2s steps(2) infinite;
   animation: noise 2s steps(2) infinite;
+  z-index: -999;
 }
 
 @-webkit-keyframes noise {
