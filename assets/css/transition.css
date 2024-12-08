@@ -13,26 +13,26 @@
 /*  */
 
 /* Set full-screen transition with a black screen effect */
-.page-enter-active,
-.page-leave-active {
-  transition: opacity 0.5s ease;
+.noizer-enter-active,
+.noizer-leave-active {
+  @apply transition-all ease-in duration-200;
 }
 
-.page-enter-from,
-.page-leave-to {
-  opacity: 0;
+.noizer-enter-from,
+.noizer-leave-to {
+  @apply opacity-0;
 }
 
 /* Full black screen transition effect */
-.page-enter-active .noise,
-.page-leave-active .noise {
+.noizer-enter-active .noise,
+.noizer-leave-active .noise {
   transition: transform 0.5s ease;
 }
 
-.page-enter {
+.noizer-enter {
   transform: scale(1);
 }
 
-.page-leave-to {
+.noizer-leave-to {
   transform: scale(1);
 }
