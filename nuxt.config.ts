@@ -14,5 +14,8 @@ export default defineNuxtConfig({
     port: 3000,
     https: false,
   },
+  app: {
+    pageTransition: { name: "noizer", mode: "out-in" },
+  },
   plugins: ["~/plugins/lenis.client.js"],
 });
