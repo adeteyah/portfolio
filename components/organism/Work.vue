@@ -37,17 +37,13 @@
     </AtomCallToAction>
   </section>
 </template>
-
 <script setup>
 import work from "~/assets/data/work.js";
-
-// Props to toggle slicing
 const props = defineProps({
   shouldSlice: {
     type: Boolean,
-    default: true, // Default is true to maintain current behavior
+    default: true,
   },
 });
-
 const workData = work;
 </script>

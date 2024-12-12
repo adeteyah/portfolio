@@ -7,5 +7,5 @@
     >
   </AtomHero>
   <AtomSubtitle />
-  <SectionWorkSliced />
+  <OrganismWork />
 </template>
