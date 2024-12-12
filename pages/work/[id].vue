@@ -21,13 +21,9 @@
     </div>
   </section>
 </template>
-
 <script setup>
 import { useRoute } from "vue-router";
 import work from "~/assets/data/work.js";
-
 const route = useRoute();
-
-// Find the work item based on the ID in the route
 const currentWork = work.find((item) => item.id === parseInt(route.params.id));
 </script>
