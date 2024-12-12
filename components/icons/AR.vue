@@ -18,6 +18,6 @@
 </template>
 <style scoped>
 path {
-  @apply opacity-10 hover:opacity-100 transition-all duration-300;
+  @apply opacity-10 hover:opacity-100 transition-all duration-300 fill-current;
 }
 </style>
