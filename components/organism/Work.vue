@@ -2,7 +2,7 @@
   <section>
     <div class="grid lg:grid-cols-3 gap-y-16 gap-x-8">
       <div
-        v-for="work in shouldSlice ? workData.slice(0, 6) : workData"
+        v-for="work in shouldSlice ? workData.slice(0, 3) : workData"
         :key="work.id"
       >
         <nuxt-link class="group no-hover grid gap-8" :to="`/work/${work.id}`">
