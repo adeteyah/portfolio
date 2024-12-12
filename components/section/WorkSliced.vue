@@ -34,6 +34,5 @@
 </template>
 <script setup>
 import work from "~/assets/data/work.js";
-import CallToAction from "../ui/CallToAction.vue";
 const workData = work;
 </script>
