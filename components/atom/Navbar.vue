@@ -1,6 +1,6 @@
 <template>
   <nav class="relative flex justify-between md:text-base">
-    <NuxtLink to="/" class="group font-semibold hover:no-underline">
+    <NuxtLink to="/" class="group font-semibold no-hover">
       A<span
         class="lg:opacity-0 group-hover:opacity-100 transition-opacity duration-500"
         >ditiya</span
