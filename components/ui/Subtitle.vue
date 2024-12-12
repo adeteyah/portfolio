@@ -19,8 +19,8 @@
 export default {
   data() {
     return {
-      firstText: "I design stuff to prioritize user comfort",
-      secondText: "And I develop something that bring simplicity to systems",
+      firstText: "I design for user comfort",
+      secondText: "I build to bring simplicity to systems",
       thirdText: "Let’s make your vision come alive!",
     };
   },
