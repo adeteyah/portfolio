@@ -29,7 +29,7 @@
         </nuxt-link>
       </div>
     </div>
-    <UiCallToAction> Test </UiCallToAction>
+    <UiCallToAction> <NuxtLink to="/">All work</NuxtLink> </UiCallToAction>
   </section>
 </template>
 <script setup>

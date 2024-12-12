@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <section class="flex justify-center">
     <slot></slot>
-  </div>
+  </section>
 </template>
