@@ -1,3 +1,3 @@
 <template>
-<SectionWork/>
+  <SectionWork />
 </template>
