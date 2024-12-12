@@ -1,8 +1,8 @@
 <template>
   <section>
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-y-16 gap-x-8">
+    <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-y-16 gap-x-8">
       <div
-        v-for="work in shouldSlice ? workData.slice(0, 3) : workData"
+        v-for="work in shouldSlice ? workData.slice(0, 2) : workData"
         :key="work.id"
       >
         <nuxt-link class="group grid gap-8" :to="`/work/${work.id}`">
