@@ -1,6 +1,10 @@
 <template>
   <nav class="relative flex justify-between md:text-base">
-    <NuxtLink to="/" class="group font-semibold">
+    <NuxtLink
+      to="/"
+      class="group font-semibold"
+      :class="route.path !== '/' ? 'opacity-50' : ''"
+    >
       A<span
         class="lg:opacity-0 group-hover:opacity-100 transition-opacity duration-500 hidden lg:inline-block"
         >ditiya</span
