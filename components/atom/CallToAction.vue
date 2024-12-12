@@ -1,7 +1,7 @@
 <template>
-  <section class="flex justify-center">
+  <div class="flex justify-center">
     <div class="cta"><slot></slot></div>
-  </section>
+  </div>
 </template>
 <style scoped>
 .cta > * {
