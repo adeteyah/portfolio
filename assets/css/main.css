@@ -22,14 +22,6 @@ a:hover {
   @apply text-current opacity-100;
 }
 
-a:active::before {
-  @apply opacity-70;
-}
-
-a:active {
-  @apply blur-[2px];
-}
-
 section {
   @apply my-8 grid gap-4 py-8 z-10;
 }
