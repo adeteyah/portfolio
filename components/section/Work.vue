@@ -32,9 +32,9 @@
         </nuxt-link>
       </div>
     </div>
-    <UiCallToAction>
+    <AtomCallToAction>
       <NuxtLink to="/work">All work</NuxtLink>
-    </UiCallToAction>
+    </AtomCallToAction>
   </section>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
   <section>
-    <UiText>
+    <AtomText>
       <template #title>About</template>
       <template #text>
         I'm a designer 🎨 and developer 🧑‍💻 dedicated to creating user-friendly
@@ -8,6 +8,6 @@
         functionality in every project. My work spans the entire development
         lifecycle—from strategic planning to final product launch.
       </template>
-    </UiText>
+    </AtomText>
   </section>
 </template>

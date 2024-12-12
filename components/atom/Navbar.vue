@@ -37,7 +37,7 @@
         Contact
       </NuxtLink>
 
-      <UiDarkModeToggler />
+      <AtomDarkModeToggler />
     </div>
   </nav>
 </template>
