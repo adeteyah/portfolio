@@ -5,7 +5,7 @@
         v-for="work in shouldSlice ? workData.slice(0, 3) : workData"
         :key="work.id"
       >
-        <nuxt-link class="group no-hover grid gap-8" :to="`/work/${work.id}`">
+        <nuxt-link class="group grid gap-8" :to="`/work/${work.id}`">
           <div
             class="relative bg-gray lg:group-hover:bg-gray/15 flex items-center transition-all duration-500 aspect-video px-12 pt-16 lg:group-hover:pt-8 shadow-inner"
           >

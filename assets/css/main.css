@@ -18,33 +18,8 @@ body {
   color: #433422;
 }
 
-a {
-  @apply relative transition-all duration-200 inline-block;
-}
-
-a::before {
-  content: "";
-  @apply absolute -z-10 top-0 left-0 w-full h-full bg-gray rounded-full blur-lg opacity-0 transition-all duration-200;
-}
-
-a:hover::before {
-  @apply opacity-50;
-}
-
 a:hover {
-  @apply blur-[1px];
-}
-
-.no-hover:hover::before {
-  @apply opacity-0;
-}
-
-.no-hover:hover {
-  @apply blur-0;
-}
-
-.no-hover:active {
-  @apply opacity-70;
+  @apply text-current opacity-100;
 }
 
 a:active::before {

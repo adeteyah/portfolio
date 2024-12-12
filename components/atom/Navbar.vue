@@ -1,6 +1,6 @@
 <template>
   <nav class="relative flex justify-between md:text-base">
-    <NuxtLink to="/" class="group font-semibold no-hover">
+    <NuxtLink to="/" class="group font-semibold">
       A<span
         class="lg:opacity-0 group-hover:opacity-100 transition-opacity duration-500 hidden lg:inline-block"
         >ditiya</span
@@ -13,23 +13,22 @@
     <div class="flex gap-4 md:gap-5 lg:gap-6">
       <NuxtLink
         to="/work"
-        :class="route.path === '/work' ? 'no-hover' : 'blur-[1px]'"
+        :class="route.path === '/work' ? 'no-hover' : 'opacity-50'"
       >
         Work
       </NuxtLink>
       <NuxtLink
         to="/about"
-        :class="route.path === '/about' ? 'no-hover' : 'blur-[1px]'"
+        :class="route.path === '/about' ? 'no-hover' : 'opacity-50'"
       >
         About
       </NuxtLink>
       <NuxtLink
         to="/contact"
-        :class="route.path === '/contact' ? 'no-hover' : 'blur-[1px]'"
+        :class="route.path === '/contact' ? 'no-hover' : 'opacity-50'"
       >
         Contact
       </NuxtLink>
-
       <AtomDarkModeToggler />
     </div>
   </nav>
