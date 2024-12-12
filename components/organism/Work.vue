@@ -32,8 +32,8 @@
         </nuxt-link>
       </div>
     </div>
-    <AtomCallToAction v-if="shouldSlice">
-      <NuxtLink to="/work">All work</NuxtLink>
+    <AtomCallToAction class="mt-12" v-if="shouldSlice">
+      <NuxtLink to="/work">See all work &rarr;</NuxtLink>
     </AtomCallToAction>
   </section>
 </template>
