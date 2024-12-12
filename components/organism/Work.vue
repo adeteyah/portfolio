@@ -7,10 +7,10 @@
       >
         <nuxt-link class="group no-hover grid gap-8" :to="`/work/${work.id}`">
           <div
-            class="relative bg-gray lg:group-hover:bg-gray/15 flex items-center transition-all duration-500 aspect-video px-12 pt-16 lg:group-hover:pt-12"
+            class="relative bg-gray lg:group-hover:bg-gray/15 flex items-center transition-all duration-500 aspect-video px-12 pt-16 lg:group-hover:pt-8"
           >
             <img
-              class="object-cover w-full h-full rounded-t-lg"
+              class="object-cover w-full h-full rounded-t-md"
               :src="work.image"
               :alt="work.title"
             />
