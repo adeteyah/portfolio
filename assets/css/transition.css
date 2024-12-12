@@ -1,9 +1,32 @@
 .page-enter-active,
 .page-leave-active {
-  transition: all 0.4s;
+  transition: all 0.6s ease-in-out;
 }
-.page-enter-from,
-.page-leave-to {
+
+.page-enter-from {
+  transform: translateY(100%); /* Start from bottom */
   opacity: 0;
-  filter: blur(1rem);
+}
+
+.page-enter-to {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.page-leave-from {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.page-leave-to {
+  transform: translateY(-100%); /* Slide up */
+  opacity: 0;
+}
+
+.page-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
 }
