@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     "@nuxt/fonts",
     "@nuxt/image",
     "@nuxtjs/color-mode",
+    "@nuxt/scripts",
   ],
   css: ["~/assets/css/main.css"],
   devServer: {
@@ -15,7 +16,7 @@ export default defineNuxtConfig({
     https: false,
   },
   app: {
-    pageTransition: { name: "noizer", mode: "out-in" },
+    pageTransition: { name: "page", mode: "in-out" },
   },
-  plugins: ["~/plugins/lenis.client.js"],
+  plugins: ["~/plugins/lenis.client.js", "~/plugins/randHover.js"],
 });

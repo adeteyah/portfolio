@@ -1,13 +1,10 @@
 <template>
   <div class="px-8 md:px-24 lg:px-40 py-11">
-    <transition name="noizer" mode="out-in">
-      <div key="$route.path" class="grid gap-4 lg:gap-11">
-        <div class="noise" v-if="isTransitioning" />
-        <AppHeader />
-        <slot />
-        <AppFooter />
-      </div>
-    </transition>
+    <div key="$route.path" class="grid gap-4 lg:gap-11">
+      <AppHeader />
+      <slot />
+      <AppFooter />
+    </div>
   </div>
 </template>
 <script>

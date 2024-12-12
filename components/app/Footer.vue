@@ -1,10 +1,8 @@
 <template>
   <footer>
-    <transition name="fade" mode="out-in">
-      <div class="w-56" v-if="isHomePage" key="hero">
+      <div class="w-56">
         <IconsAR />
       </div>
-    </transition>
     <div
       class="flex gap-4 md:gap-5 lg:gap-6 py-8 justify-between lg:justify-end"
     >
@@ -19,7 +17,3 @@
     </div>
   </footer>
 </template>
-<script setup>
-const route = useRoute();
-const isHomePage = computed(() => route.path === "/");
-</script>

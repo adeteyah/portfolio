@@ -4,10 +4,9 @@
 
 html,
 body {
-  font-family: "General Sans";
+  font-family: "Switzer";
   @apply text-sm md:text-base;
 }
-
 body {
   @apply bg-white text-black;
 }
@@ -17,20 +16,6 @@ body {
 .sepia-mode body {
   background-color: #f1e7d0;
   color: #433422;
-}
-h1 {
-  @apply font-bold;
-}
-
-h2,
-h3 {
-  @apply font-semibold;
-}
-
-h1,
-h2,
-h3 {
-  @apply tracking-wide;
 }
 
 a {
