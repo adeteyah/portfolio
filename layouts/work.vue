@@ -1,6 +1,6 @@
 <template>
-  <div class="flex gap-4">
-    <div class="bg-[red] w-1/3 flex flex-col justify-between h-[100svh]">
+  <div class="flex gap-4 py-8">
+    <div class="bg-[red] w-1/3 flex flex-col justify-between">
       <div>Test</div>
       <div>Test</div>
     </div>
