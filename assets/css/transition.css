@@ -1,20 +1,9 @@
-.page-enter-active {
-  transition: all 2s;
-  @apply bg-[red]  delay-1000;
-}
+.page-enter-active,
 .page-leave-active {
-  transition: all 2s;
-  @apply bg-[cyan];
+  transition: all 0.4s;
 }
-.page-enter-from {
-  transition: all 2s;
-  opacity: 0;
-  filter: blur(1rem);
-  @apply bg-[green];
-}
+.page-enter-from,
 .page-leave-to {
-  transition: all 2s;
   opacity: 0;
   filter: blur(1rem);
-  @apply bg-[blue];
 }
