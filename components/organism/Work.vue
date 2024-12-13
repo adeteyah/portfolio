@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <div>
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-y-16 gap-x-8">
       <div
         v-for="work in shouldSlice ? workData.slice(0, 2) : workData"
@@ -35,7 +35,7 @@
     <AtomCallToAction class="mt-12" v-if="shouldSlice">
       <NuxtLink to="/work">See all work &rarr;</NuxtLink>
     </AtomCallToAction>
-  </section>
+  </div>
 </template>
 
 <script setup>

@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <div>
     <div>
       <div class="relative aspect-video shadow-inner">
         <img
@@ -19,7 +19,7 @@
         <hr class="opacity-10" />
       </div>
     </div>
-  </section>
+  </div>
 </template>
 <script setup>
 import { useRoute } from "vue-router";

@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <footer>
     <div>
       <IconsAR />
     </div>
@@ -15,5 +15,5 @@
       <small>&copy; 2024</small>
       <small>Design & Developed by Adeteyah</small>
     </div>
-  </section>
+  </footer>
 </template>
