@@ -16,7 +16,7 @@ export default defineNuxtConfig({
     https: false,
   },
   app: {
-    pageTransition: { name: "page", mode: "in-out" },
+    pageTransition: { name: "page" },
   },
   plugins: ["~/plugins/lenis.client.js", "~/plugins/randHover.js"],
 });
