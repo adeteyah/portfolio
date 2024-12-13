@@ -1,6 +1,6 @@
 <template>
-  <div class="grid gap-8 py-8">
-    <div class="bg-[red]">
+  <div class="flex bg-[yellow] min-h-[100svh] gap-8 py-8">
+    <div class="bg-[red] flex-col justify-between">
       <AppHeader />
       <AppFooter />
     </div>
