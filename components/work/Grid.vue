@@ -5,7 +5,7 @@
       :class="`lg:grid-cols-${lgColumnCount}`"
     >
       <div
-        v-for="work in shouldSlice ? workData.slice(0, 2) : workData"
+        v-for="work in shouldSlice ? workData.slice(0, 3) : workData"
         :key="work.id"
       >
         <nuxt-link class="group grid gap-8" :to="`/work/${work.id}`">

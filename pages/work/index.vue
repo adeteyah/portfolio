@@ -1,5 +1,5 @@
 <template>
   <section>
-    <OrganismWork :shouldSlice="false" />
+    <WorkGrid :shouldSlice="false" :lgColumnCount="4" />
   </section>
 </template>
