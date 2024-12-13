@@ -18,18 +18,6 @@
       <NuxtLink to="/work" :class="route.path !== '/work' ? 'opacity-50' : ''">
         Work
       </NuxtLink>
-      <NuxtLink
-        to="/about"
-        :class="route.path !== '/about' ? 'opacity-50' : ''"
-      >
-        About
-      </NuxtLink>
-      <NuxtLink
-        to="/contact"
-        :class="route.path !== '/contact' ? 'opacity-50' : ''"
-      >
-        Contact
-      </NuxtLink>
       <AtomDarkModeToggler />
     </div>
   </nav>
