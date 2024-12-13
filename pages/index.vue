@@ -21,4 +21,9 @@
       strategic planning to final product launch.
     </template>
   </AtomText>
+  <div class="flex gap-4 md:gap-5 lg:gap-6 text-2xl">
+    <NuxtLink to="/work"> Work </NuxtLink>
+    <NuxtLink to="/work"> Work </NuxtLink>
+    <NuxtLink to="/work"> Work </NuxtLink>
+  </div>
 </template>
