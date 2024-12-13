@@ -16,10 +16,10 @@ body {
   background-color: #f1e7d0;
   color: #433422;
 }
-a {
+a.blur-hover {
   @apply transition-all duration-500 blur-[0.75px] opacity-75;
 }
-a:hover {
+a.blur-hover:hover {
   @apply text-current opacity-100 blur-[0.5px];
 }
 .lead {
