@@ -27,7 +27,7 @@ a:hover {
 }
 
 .paragraph {
-  @apply text-lg leading-8 md:text-xl md:leading-9 lg:text-2xl lg:leading-10;
+  @apply leading-8 md:text-lg md:leading-8 lg:text-xl lg:leading-10;
 }
 
 header,

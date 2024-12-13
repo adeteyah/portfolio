@@ -23,7 +23,7 @@
             </h3>
             <hr class="opacity-10" />
             <div
-              class="flex justify-between opacity-25 lg:group-hover:opacity-100 transition-all duration-500"
+              class="flex justify-between opacity-50 lg:group-hover:opacity-100 transition-all duration-500"
             >
               <p>{{ work.service }}</p>
               <p>{{ work.year }}</p>
