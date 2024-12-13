@@ -26,10 +26,9 @@
         lifecycle—from strategic planning to final product launch.
       </template>
     </AtomText>
-    <div class="flex gap-4 md:gap-5 lg:gap-6 text-2xl">
-      <NuxtLink to="/work">Mail me</NuxtLink>
-      <NuxtLink to="/work">Direct message</NuxtLink>
-      <NuxtLink to="/work">Schedule a call</NuxtLink>
+    <div class="flex gap-4 md:gap-5 lg:gap-6 text-base">
+      <NuxtLink to="/work">adeteyah@gmail.com</NuxtLink>
+      <NuxtLink to="/work">+62 85156012239</NuxtLink>
     </div>
   </section>
 </template>

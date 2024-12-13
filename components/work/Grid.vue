@@ -1,11 +1,8 @@
 <template>
   <div>
-    <div
-      class="grid md:grid-cols-2 gap-y-16 gap-x-8"
-      :class="`lg:grid-cols-${lgColumnCount}`"
-    >
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-y-16 gap-x-8">
       <div
-        v-for="work in shouldSlice ? workData.slice(0, 3) : workData"
+        v-for="work in shouldSlice ? workData.slice(0, 2) : workData"
         :key="work.id"
       >
         <nuxt-link class="group grid gap-8" :to="`/work/${work.id}`">
@@ -40,16 +37,13 @@
     </AtomCallToAction>
   </div>
 </template>
+
 <script setup>
 import work from "~/assets/data/work.js";
 const props = defineProps({
   shouldSlice: {
     type: Boolean,
     default: true,
-  },
-  lgColumnCount: {
-    type: Number,
-    default: 3,
   },
 });
 const workData = work;
