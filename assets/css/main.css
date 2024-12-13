@@ -26,7 +26,7 @@ a:hover {
   @apply text-xl leading-relaxed md:text-2xl md:leading-relaxed lg:text-4xl lg:leading-relaxed;
 }
 .paragraph {
-  @apply leading-8 md:text-lg md:leading-8 lg:text-xl lg:leading-10;
+  @apply leading-6 md:text-lg md:leading-8 lg:text-xl lg:leading-10;
 }
 header,
 footer,
