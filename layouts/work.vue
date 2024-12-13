@@ -1,6 +1,6 @@
 <template>
-  <div class="flex-row lg:flex h-full min-h-[100svh] gap-8 py-8">
-    <div>
+  <div class="grid gap-8 py-8">
+    <div class="bg-[red]">
       <AppHeader />
       <AppFooter />
     </div>
