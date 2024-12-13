@@ -1,6 +1,6 @@
 <template>
-  <div class="flex h-full min-h-[100svh] bg-white gap-8 py-8">
-    <div class="flex justify-between h-full">
+  <div class="flex-row lg:flex h-full min-h-[100svh] gap-8 py-8">
+    <div class="lg:h-full flex-col">
       <div c>Test</div>
       <AppFooter />
     </div>
