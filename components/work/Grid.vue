@@ -1,13 +1,13 @@
 <template>
   <div>
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-y-16 gap-x-8">
+    <div class="grid lg:grid-cols-2 gap-y-16 gap-x-8">
       <div
         v-for="work in shouldSlice ? workData.slice(0, 2) : workData"
         :key="work.id"
       >
         <nuxt-link class="group grid gap-8" :to="`/work/${work.id}`">
           <div
-            class="relative bg-gray lg:group-hover:bg-gray/15 flex items-center transition-all duration-500 aspect-video px-12 pt-16 lg:group-hover:pt-8 shadow-inner"
+            class="relative bg-gray lg:group-hover:bg-gray/15 flex items-center transition-all duration-500 aspect-video px-4 pt-8 lg:group-hover:pt-4 shadow-inner"
           >
             <img
               class="object-cover w-full h-full rounded-t-md"

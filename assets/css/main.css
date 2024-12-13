@@ -25,5 +25,5 @@ a:hover {
 header,
 footer,
 section {
-  @apply md:py-6 lg:py-8 px-8 md:px-16 lg:px-32 grid gap-4;
+  @apply md:py-3 lg:py-6 px-8 md:px-16 lg:px-32 grid gap-4;
 }
