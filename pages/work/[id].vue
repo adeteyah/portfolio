@@ -26,4 +26,7 @@ import { useRoute } from "vue-router";
 import work from "~/assets/data/work.js";
 const route = useRoute();
 const currentWork = work.find((item) => item.id === parseInt(route.params.id));
+definePageMeta({
+  layout: "work",
+});
 </script>
