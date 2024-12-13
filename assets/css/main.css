@@ -22,11 +22,11 @@ a:hover {
   @apply text-current opacity-100;
 }
 
-.text-lead {
+.lead {
   @apply text-xl leading-relaxed md:text-2xl md:leading-relaxed lg:text-4xl lg:leading-relaxed;
 }
 
-.text-paragraph {
+.paragraph {
   @apply text-lg leading-8 md:text-xl md:leading-9 lg:text-2xl lg:leading-10;
 }
 
