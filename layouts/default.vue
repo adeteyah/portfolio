@@ -1,5 +1,5 @@
 <template>
-  <div key="$route.path" class="grid gap-4 lg:gap-11">
+  <div key="$route.path" class="grid gap-8 py-8">
     <AppHeader />
     <slot />
     <AppFooter />

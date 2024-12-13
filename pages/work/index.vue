@@ -1,3 +1,5 @@
 <template>
-  <OrganismWork :shouldSlice="false" />
+  <section>
+    <OrganismWork :shouldSlice="false" />
+  </section>
 </template>
