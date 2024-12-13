@@ -1,7 +1,6 @@
 @import "lenis.css";
 @import "transition.css";
 @import "noise.css";
-
 html,
 body {
   font-family: "Switzer";
@@ -17,19 +16,18 @@ body {
   background-color: #f1e7d0;
   color: #433422;
 }
-
-a:hover {
-  @apply text-current opacity-100;
+a {
+  @apply transition-all duration-500 blur-[0.75px] opacity-75;
 }
-
+a:hover {
+  @apply text-current opacity-100 blur-[0.5px];
+}
 .lead {
   @apply text-xl leading-relaxed md:text-2xl md:leading-relaxed lg:text-4xl lg:leading-relaxed;
 }
-
 .paragraph {
   @apply leading-8 md:text-lg md:leading-8 lg:text-xl lg:leading-10;
 }
-
 header,
 footer,
 section {

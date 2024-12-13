@@ -3,7 +3,7 @@
     <NuxtLink
       to="/"
       class="group font-semibold"
-      :class="route.path !== '/' ? 'opacity-50' : ''"
+      :class="route.path !== '/' ? 'opacity-50' : 'opacity-100'"
     >
       A<span
         class="lg:opacity-0 group-hover:opacity-100 transition-opacity duration-500 hidden lg:inline-block"
@@ -15,7 +15,10 @@
       >
     </NuxtLink>
     <div class="flex gap-4 md:gap-5 lg:gap-6">
-      <NuxtLink to="/work" :class="route.path !== '/work' ? 'opacity-50' : ''">
+      <NuxtLink
+        to="/work"
+        :class="route.path !== '/work' ? 'opacity-50' : 'opacity-100'"
+      >
         Work
       </NuxtLink>
       <AtomDarkModeToggler />
