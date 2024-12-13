@@ -23,5 +23,5 @@ a:hover {
 }
 
 section {
-  @apply my-8 grid gap-4 py-8 z-10;
+  @apply px-8 md:px-24 lg:px-40 py-11;
 }

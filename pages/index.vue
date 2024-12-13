@@ -13,7 +13,7 @@
   </AtomSubtitle>
   <OrganismWork />
   <AtomText>
-    <template #title>About</template>
+    <template #title>Contact</template>
     <template #text>
       I'm a designer 🎨 and developer 🧑‍💻 dedicated to creating user-friendly
       solutions that prioritize comfort, simplicity, and seamless functionality
@@ -22,8 +22,8 @@
     </template>
   </AtomText>
   <div class="flex gap-4 md:gap-5 lg:gap-6 text-2xl">
-    <NuxtLink to="/work"> Work </NuxtLink>
-    <NuxtLink to="/work"> Work </NuxtLink>
-    <NuxtLink to="/work"> Work </NuxtLink>
+    <NuxtLink to="/work">Mail me</NuxtLink>
+    <NuxtLink to="/work">Direct message</NuxtLink>
+    <NuxtLink to="/work">Schedule a call</NuxtLink>
   </div>
 </template>

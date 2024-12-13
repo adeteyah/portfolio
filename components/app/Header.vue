@@ -1,5 +1,5 @@
 <template>
-  <div class="grid gap-8 lg:gap-11">
+  <section class="grid gap-8 lg:gap-11">
     <AtomNavbar />
-  </div>
+  </section>
 </template>
