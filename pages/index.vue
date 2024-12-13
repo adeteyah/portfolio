@@ -26,8 +26,8 @@
       </template>
     </AtomText>
     <div class="flex gap-4 md:gap-5 lg:gap-6 paragraph">
-      <NuxtLink to="/work">adeteyah@gmail.com</NuxtLink>
-      <NuxtLink to="/work">+62 85156012239</NuxtLink>
+      <NuxtLink class="blur-hover" to="/work">adeteyah@gmail.com</NuxtLink>
+      <NuxtLink class="blur-hover" to="/work">+62 85156012239</NuxtLink>
     </div>
   </section>
 </template>
