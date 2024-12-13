@@ -1,9 +1,12 @@
 <template>
-  <div class="flex bg-[yellow] min-h-[100svh] gap-8 py-8">
-    <div class="bg-[red] flex-col justify-between">
-      <div class="">Test</div>
+  <div class="grid grid-cols-2 bg-[yellow]">
+    <div class="bg-[red] w-1/3">
+      <div>Test</div>
+      <div>Test</div>
       <div>Test</div>
     </div>
-    <div><slot /></div>
+    <div class="bg-[blue] w-2/3">
+      <slot />
+    </div>
   </div>
 </template>
