@@ -1,9 +1,7 @@
 <template>
   <div class="noise"></div>
   <NuxtLayout>
-    <div class="page-content">
-      <NuxtPage :transition="pageTransition" />
-    </div>
+    <NuxtPage :transition="pageTransition" />
   </NuxtLayout>
 </template>
 
@@ -13,7 +11,6 @@ export default {
     return {
       pageTransition: {
         name: "page",
-        mode: "in-out", // Ensures the leave transition finishes before enter
       },
     };
   },
