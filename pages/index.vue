@@ -15,7 +15,9 @@
       <template #thirdText> Let’s make your vision come alive! </template>
     </AtomSubtitle>
   </section>
-  <section><WorkGrid :shouldSlice="true" /></section>
+  <section>
+    <WorkGrid :shouldSlice="true" />
+  </section>
   <section>
     <AtomText>
       <template #title>Contact</template>
