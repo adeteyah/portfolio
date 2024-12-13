@@ -14,6 +14,7 @@
   </section>
   <section>
     <WorkGrid :shouldSlice="true" />
+    <NuxtLink class="" to="/work">See all work</NuxtLink>
   </section>
   <section>
     <AtomText>
