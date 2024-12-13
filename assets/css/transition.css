@@ -3,15 +3,17 @@
   @apply bg-[red];
 }
 .page-leave-active {
-  transition: all 0.4s;
-  @apply bg-[yellow];
+  transition: all 10s;
+  @apply bg-[cyan];
 }
 .page-enter-from {
+  transition: all 10s;
   opacity: 0;
   filter: blur(1rem);
   @apply bg-[green];
 }
 .page-leave-to {
+  transition: all 10s;
   opacity: 0;
   filter: blur(1rem);
   @apply bg-[blue];
