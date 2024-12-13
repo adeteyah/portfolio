@@ -8,7 +8,7 @@ body {
   @apply text-sm md:text-base;
 }
 body {
-  @apply bg-white text-black;
+  @apply bg-white text-black max-w-[1440px] mx-auto;
 }
 .dark-mode body {
   @apply bg-black text-white;
