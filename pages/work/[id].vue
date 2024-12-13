@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-      <div class="relative aspect-video shadow-inner">
+      <div class="relative aspect-video">
         <img
           class="object-cover w-full h-full rounded-t-md"
           :src="currentWork.image"

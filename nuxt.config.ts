@@ -18,5 +18,5 @@ export default defineNuxtConfig({
   app: {
     pageTransition: { name: "page" },
   },
-  plugins: ["~/plugins/lenis.client.js", "~/plugins/randHover.js"],
+  plugins: ["~/plugins/lenis.client.js"],
 });
