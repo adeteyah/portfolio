@@ -7,7 +7,7 @@
       >
         <nuxt-link class="group grid gap-8" :to="`/work/${work.id}`">
           <div
-            class="relative bg-gray lg:group-hover:bg-gray/15 flex items-center transition-all duration-500 aspect-video px-4 pt-8 lg:group-hover:pt-4"
+            class="relative bg-gray lg:group-hover:bg-gray/25 flex items-center transition-all duration-500 aspect-video px-4 pt-8 lg:group-hover:pt-4"
           >
             <img
               class="object-cover w-full h-full rounded-t-md"
@@ -17,7 +17,7 @@
           </div>
           <div class="grid gap-4">
             <h3
-              class="text-3xl font-semibold lg:opacity-50 lg:group-hover:opacity-100 transition-all duration-500"
+              class="text-3xl font-semibold lg:opacity-75 lg:group-hover:opacity-100 transition-all duration-500"
             >
               {{ work.title }}
             </h3>
