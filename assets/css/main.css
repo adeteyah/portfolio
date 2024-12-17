@@ -1,11 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 @import "lenis.css";
 @import "transition.css";
 @import "noise.css";
-
 html,
 body {
   font-family: "Switzer";
