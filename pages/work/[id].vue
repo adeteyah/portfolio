@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div class="relative">
     <img
       class="object-cover w-full h-full rounded-t-md"
@@ -24,4 +24,5 @@ const currentWork = work.find((item) => item.id === parseInt(route.params.id));
 definePageMeta({
   layout: "work",
 });
-</script>
+</script> -->
+<template></template>

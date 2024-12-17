@@ -16,12 +16,14 @@
     "gsap": "^3.12.5",
     "lenis": "^1.1.18",
     "nuxt": "^3.14.1592",
-    "tailwindcss": "^3.4.16",
     "vue": "latest",
     "vue-router": "latest"
   },
   "devDependencies": {
     "@nuxt/types": "^2.18.1",
-    "@nuxt/typescript-build": "^3.0.2"
+    "@nuxt/typescript-build": "^3.0.2",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.16"
   }
 }
